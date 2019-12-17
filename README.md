@@ -12,7 +12,7 @@ This repository supports rectilinear, structured and unstructured grid in both l
 ## Usage
 First of all, add the path of BinaryParaview to PYTHONPATH:
 ```
-PYTHONPATH=path\to\BinaryParaview:$PYTHONPATH
+PYTHONPATH=path/to/BinaryParaview:$PYTHONPATH
 ```
 To run serial examples, just simply execute following commands in Terminal in Mac/Linux or cmd in Windows in the folder `examples`:
 ```
