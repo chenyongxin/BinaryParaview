@@ -10,7 +10,11 @@ This repository supports rectilinear, structured and unstructured grid in both l
 ![Sketch](https://github.com/chenyongxin/BinaryParaview/blob/master/figures/sketch.png?raw=true)
 
 ## Usage
-To run serial examples, just simply execute following commands in Terminal in Mac/Linux or cmd in Windows:
+First of all, add the path of BinaryParaview to PYTHONPATH:
+```
+PYTHONPATH=path\to\BinaryParaview:$PYTHONPATH
+```
+To run serial examples, just simply execute following commands in Terminal in Mac/Linux or cmd in Windows in the folder `examples`:
 ```
 python Legacy_***.py
 ```
