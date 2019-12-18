@@ -8,7 +8,7 @@ Write legacy structured grid in 3D.
 """
 
 from writeParaview.legacy_structured import vts
-from grid.MakeGrid import MakeGrid
+from MakeGrid import MakeGrid
 import numpy as np
 import os
 

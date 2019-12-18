@@ -13,7 +13,7 @@ mpiexec -n 3 python Parallel_XML_unstructured.py
 """
 
 from writeParaview.xml_unstructured import pvtu
-from grid.MakeGrid import MakeGrid
+from MakeGrid import MakeGrid
 from mpi4py import MPI
 import numpy as np
 import os, sys

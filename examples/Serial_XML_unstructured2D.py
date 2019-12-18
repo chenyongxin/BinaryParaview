@@ -8,7 +8,7 @@ Write serial XML unstructured grid in 2D.
 """
 
 from writeParaview.xml_unstructured import vtu
-from grid.MakeGrid import MakeGrid
+from MakeGrid import MakeGrid
 import numpy as np
 import os
 

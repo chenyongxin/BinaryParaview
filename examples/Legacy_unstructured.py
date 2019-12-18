@@ -9,7 +9,7 @@ Write legacy unstructured grid in 3D.
 
 
 from writeParaview.legacy_unstructured import vtu
-from grid.MakeGrid import MakeGrid
+from MakeGrid import MakeGrid
 import numpy as np
 import os
 

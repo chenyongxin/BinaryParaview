@@ -8,7 +8,7 @@ Write serial XML structured grid in 3D.
 """
 
 from writeParaview.xml_structured import vts
-from grid.MakeGrid import MakeGrid
+from MakeGrid import MakeGrid
 import numpy as np
 import os
 
